@@ -1,0 +1,2 @@
+# LBE-MCI_Modul-SQL
+Modul LBE MCI 2020: CREATE, UPDATE, DELETE dan SELECT syntax SQL dengan PHPMyadmin
