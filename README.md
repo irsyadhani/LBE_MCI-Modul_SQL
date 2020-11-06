@@ -7,6 +7,7 @@ XAMPP: https://drive.google.com/file/d/1ewCJt1R5lFN8fOz2kmAdByibmZcECip1/view?us
 #### Cara Run XAMPP:
 - Klik Start bagian Apache dan MySQL
 - Klik Admin pada bagian MySQL
+
 ![alt text](/gambar/run_xampp.jpg)
 
 ----------------------------------------------------------------
@@ -61,8 +62,9 @@ Contoh:
 CREATE DATABASE akademik;
 ```
 Gambar:
-![alt text](/gambar/sql1.jpg)
 
+![alt text](/gambar/sql1.jpg)
+----------------------------------------------------------------
 - CREATE TABLE
 
 Syntax:
@@ -79,8 +81,9 @@ PRIMARY KEY (deptno)
 );
 ```
 Gambar:
-![alt text](/gambar/sql2.jpg)
 
+![alt text](/gambar/sql2.jpg)
+----------------------------------------------------------------
 - DROP DATABSE
 
 Syntax:
@@ -92,8 +95,9 @@ Contoh:
 DROP DATABASE akademik;
 ```
 Gambar:
-![alt text](/gambar/sql3.jpg)
 
+![alt text](/gambar/sql3.jpg)
+----------------------------------------------------------------
 - DROP TABLE
 
 Syntax:
@@ -105,8 +109,9 @@ Contoh:
 DROP TABLE dept;
 ```
 Gambar:
-![alt text](/gambar/sql4.jpg)
 
+![alt text](/gambar/sql4.jpg)
+----------------------------------------------------------------
 - INSERT DATA
 
 Syntax:
@@ -118,8 +123,9 @@ Contoh:
 INSERT INTO dept VALUES ('001', 'T. Informatika', 'Teknik Kimia');
 ```
 Gambar:
-![alt text](/gambar/sql5.jpg)
 
+![alt text](/gambar/sql5.jpg)
+----------------------------------------------------------------
 - UPDATE DATA
 
 Syntax:
@@ -131,8 +137,9 @@ Contoh:
 UPDATE dept SET loc = 'Kimia' WHERE deptno = '001';
 ```
 Gambar:
-![alt text](/gambar/sql6.jpg)
 
+![alt text](/gambar/sql6.jpg)
+----------------------------------------------------------------
 - DELETE DATA
 
 Syntax:
@@ -144,4 +151,5 @@ Contoh:
 DELETE FROM dept WHERE deptno = '001';
 ```
 Gambar:
+
 ![alt text](/gambar/sql7.jpg)
