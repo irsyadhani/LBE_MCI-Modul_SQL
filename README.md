@@ -51,7 +51,7 @@ SQL dapat memungkinkan kamu untuk mengakses maupun mengubah database. Kamu pun b
 
 ----------------------------------------------------------------
 ## Praktik Perintah SQL:
-- CREATE DATABASE
+#### CREATE DATABASE
 
 Syntax:
 
@@ -65,7 +65,7 @@ Gambar:
 
 ![alt text](/gambar/sql1.jpg)
 ----------------------------------------------------------------
-- CREATE TABLE
+#### CREATE TABLE
 
 Syntax:
 
@@ -84,7 +84,7 @@ Gambar:
 
 ![alt text](/gambar/sql2.jpg)
 ----------------------------------------------------------------
-- DROP DATABSE
+#### DROP DATABSE
 
 Syntax:
 
@@ -98,7 +98,7 @@ Gambar:
 
 ![alt text](/gambar/sql3.jpg)
 ----------------------------------------------------------------
-- DROP TABLE
+#### DROP TABLE
 
 Syntax:
 
@@ -112,7 +112,7 @@ Gambar:
 
 ![alt text](/gambar/sql4.jpg)
 ----------------------------------------------------------------
-- INSERT DATA
+#### INSERT DATA
 
 Syntax:
 
@@ -126,7 +126,7 @@ Gambar:
 
 ![alt text](/gambar/sql5.jpg)
 ----------------------------------------------------------------
-- UPDATE DATA
+#### UPDATE DATA
 
 Syntax:
 
@@ -140,7 +140,7 @@ Gambar:
 
 ![alt text](/gambar/sql6.jpg)
 ----------------------------------------------------------------
-- DELETE DATA
+#### DELETE DATA
 
 Syntax:
 
@@ -153,6 +153,26 @@ DELETE FROM dept WHERE deptno = '001';
 Gambar:
 
 ![alt text](/gambar/sql7.jpg)
+----------------------------------------------------------------
+#### SELECT DATA
+
+Syntax:
+
+```
+SELECT column 
+FROM table 
+WHERE column operator value 
+;
+```
+
+Contoh:
+```
+SELECT deptno, dname, loc FROM dept
+WHERE loc = 'Jl. Bambu';
+```
+Gambar:
+
+![alt text](/gambar/sql8.jpg)
 
 Sumber:
 - https://www.w3schools.com/sql
