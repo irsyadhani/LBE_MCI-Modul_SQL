@@ -153,3 +153,7 @@ DELETE FROM dept WHERE deptno = '001';
 Gambar:
 
 ![alt text](/gambar/sql7.jpg)
+
+Sumber:
+- https://www.w3schools.com/sql
+- https://www.dewaweb.com/blog/sql-pengertian-fungsi-beserta-perintah-dasarnya/
